@@ -23,6 +23,7 @@ To run the project use this set of commands:
 
 ```bash
 poetry install
+poetry add [package-name]
 poetry run python -m server
 ```
 

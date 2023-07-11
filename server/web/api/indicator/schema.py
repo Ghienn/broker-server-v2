@@ -17,6 +17,8 @@ class IndicatorDTOModel(BaseModel):
 
     class Config:
         orm_mode = False
+        
+    @validator
 
 
 # class IndicatorOutputDTOModel(BaseModel):
